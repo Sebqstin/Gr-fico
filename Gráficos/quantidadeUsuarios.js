@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Você sabe que morrem aproximadamente 100.000 pessoas diariamente?',
+            text: 'Você sabia que ass pessoas conectadas representam 67% da população mundial, ou seja 5,4 bilhões de pessoas?',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
