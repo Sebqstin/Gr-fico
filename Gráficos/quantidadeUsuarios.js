@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Gráfico de pessoas conectadas à internet anualmente',
+            text: 'Gráfico de pessoas conectadas à internet ao ano desde 2016 até 2021',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
@@ -31,7 +31,7 @@ async function quantidadeUsuarios() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Pessoas conectadas anualmente',
+                text: 'Anos',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
@@ -40,7 +40,7 @@ async function quantidadeUsuarios() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Número de pessoas conectadas',
+                text: 'Porcentagem de pessoas conectadas',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
