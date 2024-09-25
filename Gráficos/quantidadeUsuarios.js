@@ -31,7 +31,7 @@ async function quantidadeUsuarios() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Paises com mais desmatamento no mundo',
+                text: 'Pessoas conectadas anualmente',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
@@ -40,7 +40,7 @@ async function quantidadeUsuarios() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Aumento de desmatamento',
+                text: 'Número de pessoas conectadas',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
