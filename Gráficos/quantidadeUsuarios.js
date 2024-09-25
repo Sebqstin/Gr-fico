@@ -40,7 +40,7 @@ async function quantidadeUsuarios() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Porcentagem de pessoas conectadas',
+                text: 'Bilhões de pessoas conectadas',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
