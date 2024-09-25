@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Você sabia que ass pessoas conectadas ao internet representam 67% da população mundial, ou seja 5,4 bilhões de pessoas?',
+            text: 'Gráfico de pessoas conectadas à internet anualmente',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
@@ -31,7 +31,7 @@ async function quantidadeUsuarios() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Paises com mais desmatmento no mundo',
+                text: 'Paises com mais desmatamento no mundo',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
