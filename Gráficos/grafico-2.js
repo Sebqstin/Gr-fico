@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Gráfico de pessoas conectadas à internet ao ano desde 2016 até 2021',
+            text: 'Gráfico de torcedores de 5 times do Brasileirão',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
